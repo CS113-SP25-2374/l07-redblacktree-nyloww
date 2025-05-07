@@ -6,7 +6,7 @@ public class RedBlackTree<E extends Comparable<E>> {
         RED, BLACK
     }
 
-    public class Node<E> {
+    public static class Node<E> {
         E element;
         Node<E> left;
         Node<E> right;
